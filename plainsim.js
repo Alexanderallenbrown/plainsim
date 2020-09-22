@@ -614,7 +614,7 @@ this.textSize = itextSize;
 this.updateButton=function(){
   //detect whether the radio button is 
 if (mouseIsPressed==true){
-  if ((sqrt(pow(mouseX-this.x,2)+pow(mouseY-this.y,2))<=this.d/2)||(sqrt(pow(touchX-this.x,2)+pow(touchY-this.y,2))<=this.d/2)){
+  if ((sqrt(pow(mouseX-this.x,2)+pow(mouseY-this.y,2))<=this.d/2)){
     this.touched=true;
   }
 }
@@ -661,7 +661,7 @@ this.label = ilabel;
 this.updateRadio=function(){
   //detect whether the radio button is 
 if (mouseIsPressed==true){
-  if ((sqrt(pow(mouseX-this.x,2)+pow(mouseY-this.y,2))<=this.d/2)||(sqrt(pow(touchX-this.x,2)+pow(touchY-this.y,2))<=this.d/2)){
+  if ((sqrt(pow(mouseX-this.x,2)+pow(mouseY-this.y,2))<=this.d/2)){
     this.touched=true;
   }
 }
